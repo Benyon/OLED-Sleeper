@@ -32,6 +32,7 @@ OLED Sleeper monitors each screen for activity. When a monitor is idle for a set
     * **System-Wide Input:** Tracks overall keyboard and mouse input across the entire system (similar to standard Windows idle detection).
 * **Per-Monitor Control:** Blackout or dim any monitor independently.
 * **Two Action Modes:** Full blackout or dimming (DDC/CI supported).
+* **Dimming Easing:** Optionally set separate ease-in and ease-out durations for gradual brightness transitions.
 * **Instant Wake-Up:** Restore the monitor immediately when activity is detected.
 * **Native WPF Application:** Built from the ground up using native Win32 calls. Requires no external dependencies or third-party tools.
 
